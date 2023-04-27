@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Estoque
 build_property.RootNamespace = Estoque
-build_property.ProjectDir = C:\Users\Lucas\Desktop\Nova pasta\C#\Estoque\
+build_property.ProjectDir = C:\Users\walle\Desktop\Projeto\C#\Estoque\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lucas\Desktop\Nova pasta\C#\Estoque
+build_property.MSBuildProjectDirectory = C:\Users\walle\Desktop\Projeto\C#\Estoque
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/categoria/Create.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/categoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/categoria/Delete.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/categoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/categoria/Details.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/categoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/categoria/Edit.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/categoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/categoria/Index.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/Home/Index.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/Home/Privacy.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/produtos/Create.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/produtos/Delete.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/produtos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/produtos/Details.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/produtos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/produtos/Edit.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/produtos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/produtos/Index.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/Shared/Error.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/_ViewImports.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/_ViewStart.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lucas/Desktop/Nova pasta/C\#/Estoque/Views/Shared/_Layout.cshtml]
+[C:/Users/walle/Desktop/Projeto/C\#/Estoque/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2okdglksdb

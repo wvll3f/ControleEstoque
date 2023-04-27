@@ -17,12 +17,16 @@
                 <input asp-for="nomeProduto" class="form-control" />
                 <span asp-validation-for="nomeProduto" class="text-danger"></span>
             </div>
-            <select name="categoria" class="form-group">
+
+            
                 <label>Categorias</label>
+            <select  class="form-select" name="categoria">
                 @foreach (categoria item in Model.categoria){
                     <option value="@item.idCategoria">@item.nomeCategoria</option>
                 }
             </select>
+          
+            
             <div class="form-group">
                 <label asp-for="valorProduto" class="control-label"></label>
                 <input asp-for="valorProduto" class="form-control" />

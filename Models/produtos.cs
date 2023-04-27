@@ -29,9 +29,9 @@ namespace Estoque.Models
         [Required(ErrorMessage = "Campo Obrigatorio")]
         public decimal valorCompra { get; set; }
 
-        [DisplayName("Valor de venda")]
+        [DisplayName("Quantidade")]
         [Required(ErrorMessage = "Campo Obrigatorio")]
-        public decimal valorVenda { get; set; }
+        public int valorVenda { get; set; }
 
         [DisplayName("Ultima modificação")]
         [Required(ErrorMessage = "Campo Obrigatorio")]

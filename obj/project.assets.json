@@ -10526,19 +10526,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\walle\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\Nova pasta\\C#\\Estoque\\Estoque.csproj",
+      "projectUniqueName": "C:\\Users\\walle\\Desktop\\Projeto\\C#\\Estoque\\Estoque.csproj",
       "projectName": "Estoque",
-      "projectPath": "C:\\Users\\Lucas\\Desktop\\Nova pasta\\C#\\Estoque\\Estoque.csproj",
-      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Desktop\\Nova pasta\\C#\\Estoque\\obj\\",
+      "projectPath": "C:\\Users\\walle\\Desktop\\Projeto\\C#\\Estoque\\Estoque.csproj",
+      "packagesPath": "C:\\Users\\walle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\walle\\Desktop\\Projeto\\C#\\Estoque\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\walle\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
