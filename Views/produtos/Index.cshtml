@@ -4,11 +4,20 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Produtos</h1>
 
 <p>
     <a type="button" class="btn btn-primary" asp-action="Create">Adicionar</a>
 </p>
+
+<form asp-controller="produtos" asp-action="Index" method="get">
+    
+        <label class="mb-3">Nome do produto: </label>
+        <input class="mb-3" type="text" name="buscarProduto" />
+        <input class="btn btn-primary p-1 mb-2" type="submit" value="Filtrar" />
+    
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -16,7 +25,7 @@
                 @Html.DisplayNameFor(model => model.nomeProduto)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.categoria)
+                @Html.DisplayNameFor(model => model.Estoque)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.valorProduto)
@@ -40,7 +49,7 @@
                 @Html.DisplayFor(modelItem => item.nomeProduto)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.categoria)
+                @Html.DisplayFor(modelItem => item.Estoque)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.valorProduto)

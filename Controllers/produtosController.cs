@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Estoque.Data;
 using Estoque.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Estoque
 {
+    [Authorize]
     public class produtosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,11 +22,30 @@ namespace Estoque
         }
 
         // GET: produtos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscarProduto)
         {
-            return _context.produtos != null ?
-                        View(await _context.produtos.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDbContext.produtos'  is null.");
+            if(_context.produtos == null)
+            {
+                Problem("Entity set 'ApplicationDbContext.produtos'  is null.");
+            } 
+            
+            var produtoos = from p in _context.produtos
+                            select p;
+
+            if(!String.IsNullOrEmpty(buscarProduto))
+            {
+                produtoos = produtoos.Where(x => x.nomeProduto!.Contains(buscarProduto));
+            }                              
+            
+
+            return View(await produtoos.ToListAsync());
+                       
+        }
+
+        [HttpPost]
+        public string Index(string buscarProduto, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + buscarProduto;
         }
 
         // GET: produtos/Details/5
@@ -59,7 +80,7 @@ namespace Estoque
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("idProdutos,nomeProduto,valorProduto,valorCompra,valorVenda,dataProduto,categoria")] produtos produtos)
+        public async Task<IActionResult> Create([Bind("idProdutos,nomeProduto,valorProduto,valorCompra,valorVenda,Estoque,dataProduto,categoria")] produtos produtos)
         {
 
             _context.Add(produtos);
@@ -89,7 +110,7 @@ namespace Estoque
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("idProdutos,nomeProduto,valorProduto,valorCompra,valorVenda,dataProduto")] produtos produtos)
+        public async Task<IActionResult> Edit(int id, [Bind("idProdutos,nomeProduto,valorProduto,valorCompra,valorVenda,Estoque,dataProduto")] produtos produtos)
         {
             if (id != produtos.idProdutos)
             {

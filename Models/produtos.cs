@@ -33,6 +33,10 @@ namespace Estoque.Models
         [Required(ErrorMessage = "Campo Obrigatorio")]
         public int valorVenda { get; set; }
 
+        [DisplayName("Estoque Inicial")]
+        [Required(ErrorMessage = "Campo Obrigatorio")]
+        public int Estoque { get; set; }
+
         [DisplayName("Ultima modificação")]
         [Required(ErrorMessage = "Campo Obrigatorio")]
         public DateTime dataProduto { get; set; } = DateTime.Today;
